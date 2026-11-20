@@ -3,7 +3,7 @@
 Code for **"Is It Still There? Place-Registered Verification Makes VLMs Reliable Scene-Change Detectors"**
 (Jinjie Xie, Baihua Li, Qinggang Meng, Loughborough University).
 
-[Paper (arXiv:2611.18734)](https://arxiv.org/abs/2611.18734)
+[Paper (arXiv:2611.18734)](https://arxiv.org/abs/2611.18734) · [Verifier weights (Hugging Face)](https://huggingface.co/oran9er/STILL-Qwen3.5-9B)
 
 Multi-image VLMs are poor at telling which objects changed between two visits to a scene. They can say what a frame
 shows, but they cannot find where an object was in the other capture, so they report objects that only one viewpoint
