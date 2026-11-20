@@ -3,6 +3,8 @@
 Code for **"Is It Still There? Place-Registered Verification Makes VLMs Reliable Scene-Change Detectors"**
 (Jinjie Xie, Baihua Li, Qinggang Meng, Loughborough University).
 
+[Paper (arXiv:2611.18734)](https://arxiv.org/abs/2611.18734)
+
 Multi-image VLMs are poor at telling which objects changed between two visits to a scene. They can say what a frame
 shows, but they cannot find where an object was in the other capture, so they report objects that only one viewpoint
 shows and miss most removed and moved objects. STILL turns change detection into a set of questions asked at the
@@ -84,11 +86,14 @@ The holistic baseline fine-tunes the same base model with `still_sft.py --arm V`
 ## Citation
 
 ```bibtex
-@article{xie2026still,
-  title   = {Is It Still There? Place-Registered Verification Makes {VLMs} Reliable Scene-Change Detectors},
-  author  = {Xie, Jinjie and Li, Baihua and Meng, Qinggang},
-  journal = {arXiv preprint},
-  year    = {2026}
+@misc{xie2026still,
+  title         = {Is It Still There? Place-Registered Verification Makes {VLMs} Reliable Scene-Change Detectors},
+  author        = {Xie, Jinjie and Li, Baihua and Meng, Qinggang},
+  year          = {2026},
+  eprint        = {2611.18734},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2611.18734}
 }
 ```
 
